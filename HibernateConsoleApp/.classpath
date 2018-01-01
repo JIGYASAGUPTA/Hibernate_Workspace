@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/xampp/tomcat/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jigyasa Gupta/FTP/Day13/LearningMaterial/jars/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jigyasa Gupta/FTP/Day13/LearningMaterial/jars/asm.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jigyasa Gupta/FTP/Day13/LearningMaterial/jars/asm-attrs.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jigyasa Gupta/FTP/Day13/LearningMaterial/jars/c3p0-0.9.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jigyasa Gupta/FTP/Day13/LearningMaterial/jars/cglib-2.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jigyasa Gupta/FTP/Day13/LearningMaterial/jars/commons-collections-2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jigyasa Gupta/FTP/Day13/LearningMaterial/jars/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jigyasa Gupta/FTP/Day13/LearningMaterial/jars/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jigyasa Gupta/FTP/Day13/LearningMaterial/jars/ehcache-1.2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jigyasa Gupta/FTP/Day13/LearningMaterial/jars/ejb3-persistence.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jigyasa Gupta/FTP/Day13/LearningMaterial/jars/hibernate3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jigyasa Gupta/FTP/Day13/LearningMaterial/jars/hibernate-annotations.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jigyasa Gupta/FTP/Day13/LearningMaterial/jars/hibernate-commons-annotations.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jigyasa Gupta/FTP/Day13/LearningMaterial/jars/hibernate-validator.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jigyasa Gupta/FTP/Day13/LearningMaterial/jars/jdbc2_0-stdext.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jigyasa Gupta/FTP/Day13/LearningMaterial/jars/jta.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jigyasa Gupta/FTP/Day13/LearningMaterial/jars/log4j-1.2.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jigyasa Gupta/FTP/Day13/LearningMaterial/jars/mysql-connector-java-5.1.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jigyasa Gupta/FTP/Day13/LearningMaterial/jars/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jigyasa Gupta/FTP/Day13/LearningMaterial/jars/xerces-2.6.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

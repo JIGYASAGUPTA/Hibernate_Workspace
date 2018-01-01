@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 29-Nov-2017 10:44:19 by Hibernate Tools 4.3.5.Final -->
+<hibernate-mapping>
+    <class name="Cart" table="cart" catalog="shopping" optimistic-lock="version">
+        <composite-id name="id" class="CartId">
+            <key-property name="code" type="string">
+                <column name="code" length="40" />
+            </key-property>
+            <key-property name="name" type="string">
+                <column name="name" length="40" />
+            </key-property>
+            <key-property name="qty" type="double">
+                <column name="qty" precision="22" scale="0" />
+            </key-property>
+        </composite-id>
+    </class>
+</hibernate-mapping>

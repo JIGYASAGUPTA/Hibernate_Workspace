@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE hibernate-mapping PUBLIC
+          "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+          <hibernate-mapping>
+          <class name="com.Employee" table="Employee">
+          <id name="emailId" column="emailId">
+          <generator class="native"></generator>
+          </id>
+          
+           <property name="Fname" ></property>
+            <property name="Lname"></property>
+              <property name="passwd"></property>
+              
+
+          <list name="attend" cascade="all">
+             <key column="emailid"></key>
+             <index column="type"></index>
+          <one-to-many class="com.EmployeeAtt"/>
+          </list>
+          
+          </class>
+          
+          <class name="com.EmployeeAtt" table="EmployeeAtt">
+          <id name="emailid" column="emailId">
+          <generator class="foreign">
+          <param name="property">parent</param>
+          </generator>
+          </id>
+       
+          <property name="punchin"></property>
+          <property name="punchout"></property>
+          <property name="date" column ="Adate"></property>
+          </class>
+          
+          </hibernate-mapping>
